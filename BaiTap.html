@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập</title>
+</head>
+<body>
+    <div>
+        <h1>Text Input</h1>
+        First name: <br>
+        <input type="text"> <br>
+        Last name: <br>
+        <input type="text">
+        <p>Note that the form itself is not visible.</p>
+        <p>Also note that the default width of a text input field is 20 characters.</p>
+    </div>
+    
+    <div>
+        <h1>Textarea</h1>
+        <p>The textarea element defines a multi-line input field.</p>
+        <textarea name="" id="" cols="30" rows="10">The cat was playing in the garden.</textarea>
+    </div>
+    
+    <div>
+        <h1>Password field</h1>
+        <p>The input type="password" defines a password field:</p>
+        User name: <br>
+        <input type="text"> <br>
+        User password: <br>
+        <input type="password">
+        <p>The characters in a password field are masked (shown as asterisks or circles).</p>
+    </div>
+    <div>
+        <h1>The Submit-Reset Button</h1>
+        <form action="" target="_blank">
+            <table>
+                <tr>
+                     <td><label for="">First name:</label></td>
+                    <td><input type="text" value="Mikey"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Last name:</label></td>
+                    <td><input type="text" value="Mouse"></td>
+                </tr>
+               
+            </table>
+            
+        </form>
+        <form action="/action_page.php">
+            <td><input type="submit" id="" name="submit" value="Submit"></td>
+            <td><input type="submit" id="" name="" value="Reset"></td>
+        </form>
+        <P>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</P>
+        <p>f you change the input values and then click the "Reset" button, the form-data will be reset to the default values.</p>
+    </div>
+    <div>
+        <h1>The Radio Buttons And Checkbox Buttons</h1>
+        <P>Please select your gender:</P>
+        <form action="">
+            <input type="radio" value="Male">
+            <label for="Male">Male</label><br>
+            <input type="radio" value="Female">
+            <label for="Female">Female</label>
+        </form>
+        <p>Please select your gender:</p>
+        <form action="">
+            <input type="checkbox" value="Bike">
+            <label for="Bike">Bike</label> <br>
+            <input type="checkbox" value="Bike">
+            <label for="Bike">Car</label> <br>
+            <input type="checkbox" value="Bike">
+            <label for="Bike">Boat</label> <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div>
+        <h1>The Drop-down menu</h1>
+        <form action="">
+            <select name="" id="">
+                <option value="Violet">Violet</option>
+                <option value="Rose">Rose</option>
+                <option value="Lily">Lily</option>
+            </select>
+        </form>
+        <h1>The Drop-down menu with option group</h1>
+        <form action="">
+            <select name="" id="">
+                <option value="Violet">Violet</option>
+                <option value="Rose">Rose</option>
+                <option value="Lily">Lily</option>
+            </select>
+        </form>
+    </div>
+    <div>
+        <h1>Show a file-select field</h1>
+        <p>Select a file :</p>
+        <input type="file" value="Choose File"> <br> <br>
+        <input type="submit" value="Submit a image">
+        <p>Select mutiple files :</p>
+        <input type="file" value="Choose Files"> <br><br>
+        <input type="submit" value="Submit multiple images">
+    </div>
+    <div>
+        <h1>Define a hidden input field:</h1>
+        <form action="" novalidate>
+            <table>
+                <tr> 
+                    <td><label for="">First name:</label></td> 
+                    <td><input type="text"> </td>
+                </tr>
+            </table>
+            <br>
+           <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
